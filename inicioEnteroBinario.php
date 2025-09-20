@@ -5,11 +5,8 @@ if (isset($_POST['numero'])) {
     
     if (is_numeric($numero) && $numero >= 0) {
         $binario = decbin((int)$numero);
-        echo "El número $numero en binario es: $binario";
     }
 }
-
-
 
 ?>
 
@@ -26,13 +23,15 @@ if (isset($_POST['numero'])) {
         <h1>Conversor de entero a binario</h1>
         <form method="post" action="">
             <label for="numero">Ingrese un numero entero para transformarlo en binario:</label><br>
-            <input type="number" id="ente" name="ente" required>
+            <input type="number" id="numero" name="numero" required>
             <button type="submit">Generar</button>
         </form>
 
-        <?php if ($acronimo): ?>
-            <p><?php echo $acronimo; ?></p>
-        <?php endif; ?>
+        <?php 
+        if ($binario){
+        echo  "El número $numero en binario es: $binario";
+}
+        ?> 
     </div>
 </body>
 </html>
