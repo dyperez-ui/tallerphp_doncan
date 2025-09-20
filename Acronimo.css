@@ -1,0 +1,21 @@
+
+
+.body {
+    background-color: #13120b;
+    margin: 0;
+    padding: 20px;
+}
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(29, 240, 163);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+
+}
