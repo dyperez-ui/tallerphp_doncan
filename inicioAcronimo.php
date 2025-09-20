@@ -1,15 +1,14 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['frase'])) {
+$acronimo = '';
+
+if (!empty($_POST['frase'])) {
     $palabras = preg_split('/\s+/', trim(preg_replace('/[^a-zA-Z\s-]/', '', $_POST['frase'])));
-    $acronimo = '';
     
     foreach ($palabras as $palabra) {
         if (!empty($palabra)) {
             $acronimo .= $palabra[0];
         }
     }
-} else {
-    $acronimo = '';
 }
 ?>
 
