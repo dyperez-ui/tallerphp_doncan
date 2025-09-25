@@ -28,7 +28,7 @@ if (isset($_POST['numero'])) {
         </form>
 
         <?php 
-        if ($binario){
+        if (isset($binario)){
         echo  "El número $numero en binario es: $binario";
 }
         ?> 
