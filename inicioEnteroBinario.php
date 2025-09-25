@@ -1,5 +1,5 @@
 <?php
-// Usando método GET en lugar de POST
+
 if (isset($_POST['numero'])) {
     $numero = $_POST['numero'];
     
