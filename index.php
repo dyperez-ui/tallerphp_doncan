@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Operaciones con Conjuntos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Operaciones con Conjuntos (A y B)</h2>
