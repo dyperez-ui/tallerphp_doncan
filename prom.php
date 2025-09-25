@@ -3,7 +3,7 @@ if($_POST && isset($_POST["txtcant"])){
     $cant = intval($_POST["txtcant"]);
     $j = 1;
     $suma = 0;
-
+it 
     if ($cant > 0) {
         while($j <= $cant){
             if (isset($_POST["txtNum".$j]) && is_numeric($_POST["txtNum".$j])) {
