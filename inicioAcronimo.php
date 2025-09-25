@@ -24,13 +24,15 @@ if (!empty($_POST['frase'])) {
         <h1>Generador de Acrónimos</h1>
         <form method="post" action="">
             <label for="frase">Ingrese una frase:</label><br>
-            <input type="text" id="frase" name="frase" required>
+            <input type="text" id="frase" name="frase" >
             <button type="submit">Generar</button>
         </form>
 
         <?php
 if ($acronimo != "") {
     echo "<p>$acronimo</p>";
+} else {
+    echo "no hay nada una frase para crear un acronimo";
 }
 ?>
     </div>
