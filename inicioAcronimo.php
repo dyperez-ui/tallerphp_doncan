@@ -28,9 +28,11 @@ if (!empty($_POST['frase'])) {
             <button type="submit">Generar</button>
         </form>
 
-        <?php if ($acronimo): ?>
-            <p><?php echo $acronimo; ?></p>
-        <?php endif; ?>
+        <?php
+if ($acronimo != "") {
+    echo "<p>$acronimo</p>";
+}
+?>
     </div>
 </body>
 </html>
