@@ -1,0 +1,36 @@
+
+
+body {git a
+    background: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background: white;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, button {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+}
+
+
