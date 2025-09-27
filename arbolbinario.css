@@ -1,0 +1,65 @@
+body {
+    background: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background: white;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+}
+
+.resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para el arbol */
+.arbol {
+    margin-top: 20px;
+}
+
+.cajita {
+    border: 1px solid #333;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.raiz {
+    background: #ddd;
+    font-weight: bold;
+}
+
+.hijos {
+    display: flex;
+    justify-content: center;
+}
