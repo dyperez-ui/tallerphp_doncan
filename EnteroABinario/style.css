@@ -1,0 +1,27 @@
+body {
+    background-color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    border: 2px solid #ccc;
+}
+input, select, button {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
